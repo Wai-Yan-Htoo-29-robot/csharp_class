@@ -17,7 +17,7 @@ namespace WindowsFormsApp1
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new kattis.count_the_vowel());
+            Application.Run(new ato.frm_login());
         }
     }
 }

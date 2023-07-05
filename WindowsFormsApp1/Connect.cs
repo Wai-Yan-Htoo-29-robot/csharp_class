@@ -11,15 +11,14 @@ namespace WindowsFormsApp1
 {
     public class Connect
     {
-        //a kind of class
-        //class member
+        //            class     obj
         public MySqlConnection conn;
 
         //constructor oop auto
         public Connect() 
         {
             //secure 
-            string db_info = "server=localhost;port=3306;uid=root;pwd=;database=csharp;SslMode=none;convert zero datetime=True";
+            string db_info = "server=localhost;port=3306;uid=root;pwd=;database=csharp";
             conn = new MySqlConnection(db_info);
             conn.Open();
             //MessageBox.Show("open");
