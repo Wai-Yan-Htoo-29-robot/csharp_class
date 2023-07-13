@@ -107,3 +107,10 @@ C:\Users\DELL\Desktop\kbtc\L4_DC\OODCP\firstproject\csharp_class\WindowsFormsApp
 C:\Users\DELL\Desktop\kbtc\L4_DC\OODCP\firstproject\csharp_class\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.ato.frm_admin_dashboard.resources
 C:\Users\DELL\Desktop\kbtc\L4_DC\OODCP\firstproject\csharp_class\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.ato.frm_product_list.resources
 C:\Users\DELL\Desktop\kbtc\L4_DC\OODCP\firstproject\csharp_class\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.ato.frm_voucher_report.resources
+C:\Users\DELL\Desktop\kbtc\L4_DC\OODCP\firstproject\csharp_class\WindowsFormsApp1\bin\Debug\ExcelLibrary.dll
+C:\Users\DELL\Desktop\kbtc\L4_DC\OODCP\firstproject\csharp_class\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.ResolveComReference.cache
+C:\Users\DELL\Desktop\kbtc\L4_DC\OODCP\firstproject\csharp_class\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.home_appliance.frm_login.resources
+C:\Users\DELL\Desktop\kbtc\L4_DC\OODCP\firstproject\csharp_class\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.home_appliance.frm_sign_up.resources
+C:\Users\DELL\Desktop\kbtc\L4_DC\OODCP\firstproject\csharp_class\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.home_appliance.frm_admin_dashboard.resources
+C:\Users\DELL\Desktop\kbtc\L4_DC\OODCP\firstproject\csharp_class\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.home_appliance.frm_appliance_view.resources
+C:\Users\DELL\Desktop\kbtc\L4_DC\OODCP\firstproject\csharp_class\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.home_appliance.frm_cart.resources

@@ -36,6 +36,9 @@
     <Reference Include="BouncyCastle.Crypto, Version=1.9.0.0, Culture=neutral, PublicKeyToken=0e99375e54769942, processorArchitecture=MSIL">
       <HintPath>packages\Portable.BouncyCastle.1.9.0\lib\net40\BouncyCastle.Crypto.dll</HintPath>
     </Reference>
+    <Reference Include="ExcelLibrary, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>packages\ExcelLibrary.1.2011.7.31\lib\ExcelLibrary.dll</HintPath>
+    </Reference>
     <Reference Include="Google.Protobuf, Version=3.21.9.0, Culture=neutral, PublicKeyToken=a7d26565bac4d604, processorArchitecture=MSIL">
       <HintPath>packages\Google.Protobuf.3.21.9\lib\net45\Google.Protobuf.dll</HintPath>
     </Reference>
@@ -155,6 +158,36 @@
       <DependentUpon>frm_reset.cs</DependentUpon>
     </Compile>
     <Compile Include="grand_child_class.cs" />
+    <Compile Include="home_appliance\frm_admin_dashboard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="home_appliance\frm_admin_dashboard.Designer.cs">
+      <DependentUpon>frm_admin_dashboard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="home_appliance\frm_appliance_view.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="home_appliance\frm_appliance_view.Designer.cs">
+      <DependentUpon>frm_appliance_view.cs</DependentUpon>
+    </Compile>
+    <Compile Include="home_appliance\frm_cart.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="home_appliance\frm_cart.Designer.cs">
+      <DependentUpon>frm_cart.cs</DependentUpon>
+    </Compile>
+    <Compile Include="home_appliance\frm_login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="home_appliance\frm_login.Designer.cs">
+      <DependentUpon>frm_login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="home_appliance\frm_sign_up.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="home_appliance\frm_sign_up.Designer.cs">
+      <DependentUpon>frm_sign_up.cs</DependentUpon>
+    </Compile>
     <Compile Include="hotel_project\frm_bungalow.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -293,6 +326,21 @@
     <EmbeddedResource Include="frm_reset.resx">
       <DependentUpon>frm_reset.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="home_appliance\frm_admin_dashboard.resx">
+      <DependentUpon>frm_admin_dashboard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="home_appliance\frm_appliance_view.resx">
+      <DependentUpon>frm_appliance_view.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="home_appliance\frm_cart.resx">
+      <DependentUpon>frm_cart.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="home_appliance\frm_login.resx">
+      <DependentUpon>frm_login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="home_appliance\frm_sign_up.resx">
+      <DependentUpon>frm_sign_up.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="hotel_project\frm_bungalow.resx">
       <DependentUpon>frm_bungalow.cs</DependentUpon>
     </EmbeddedResource>
@@ -379,6 +427,35 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="hotel_project\img\bungalow.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="Microsoft.Office.Core">
+      <Guid>{2DF8D04C-5BFA-101B-BDE5-00AA0044DE52}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>8</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="Microsoft.Office.Interop.Excel">
+      <Guid>{00020813-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>9</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="VBIDE">
+      <Guid>{0002E157-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>5</VersionMajor>
+      <VersionMinor>3</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

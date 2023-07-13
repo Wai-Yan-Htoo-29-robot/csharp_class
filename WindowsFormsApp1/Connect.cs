@@ -18,7 +18,7 @@ namespace WindowsFormsApp1
         public Connect() 
         {
             //secure 
-            string db_info = "server=localhost;port=3306;uid=root;pwd=;database=csharp";
+            string db_info = "server=localhost;port=3306;uid=root;pwd=;database=home_appliance";
             conn = new MySqlConnection(db_info);
             conn.Open();
             //MessageBox.Show("open");

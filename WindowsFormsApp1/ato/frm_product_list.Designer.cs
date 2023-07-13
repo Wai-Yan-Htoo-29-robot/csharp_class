@@ -49,12 +49,14 @@
             // 
             // btn_search
             // 
+            this.btn_search.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.btn_search.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
             this.btn_search.Location = new System.Drawing.Point(330, 53);
             this.btn_search.Name = "btn_search";
             this.btn_search.Size = new System.Drawing.Size(124, 35);
             this.btn_search.TabIndex = 1;
             this.btn_search.Text = "search";
-            this.btn_search.UseVisualStyleBackColor = true;
+            this.btn_search.UseVisualStyleBackColor = false;
             this.btn_search.Click += new System.EventHandler(this.btn_search_Click);
             // 
             // dg_product_list
@@ -119,6 +121,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.Red;
             this.ClientSize = new System.Drawing.Size(725, 555);
             this.Controls.Add(this.btn_item_clear);
             this.Controls.Add(this.dg_product_list);

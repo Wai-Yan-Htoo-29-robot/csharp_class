@@ -17,7 +17,7 @@ namespace WindowsFormsApp1
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new ato.frm_login());
+            Application.Run(new home_appliance.frm_appliance_view());
         }
     }
 }

@@ -31,7 +31,7 @@ namespace WindowsFormsApp1.ato
             if(staff1_name==name && staff1_pwd==password)
             {
                 //frm_ato_shop fatosho=new frm_ato_shop();
-                frm_admin_dashboard fad=new frm_admin_dashboard();
+                ato.frm_admin_dashboard fad=new ato.frm_admin_dashboard();
                 this.Hide();
                 fad.Show();
             }
